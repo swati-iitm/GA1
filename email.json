@@ -1,0 +1,2 @@
+# Create a file named email.json with the required content
+echo '{"email": "23ds3000185@ds.study.iitm.ac.in"}' > email.json

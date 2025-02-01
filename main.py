@@ -1,6 +1,6 @@
-from fastapi import FastAPI
-
-app = FastAPI()
+from flask import Flask, request, jsonify
+app = Flask(__name__)
+#app = FastAPI()
 
 @app.get("/")
 def read_root():

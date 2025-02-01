@@ -4,4 +4,4 @@ app = Flask(__name__)
 
 @app.get("/")
 def read_root():
-    return {"message": "Hello, World!"}
+    return "Hello, World!"
